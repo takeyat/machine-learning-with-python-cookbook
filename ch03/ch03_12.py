@@ -4,7 +4,7 @@
 import pandas as pd
 
 # URLを作成
-url = 'https://tinyurl.com/titanic-csv'
+url = 'https://raw.githubusercontent.com/chrisalbon/simulated_datasets/master/titanic.csv'
 
 # データを作成
 dataframe = pd.read_csv(url)
